@@ -1,0 +1,14 @@
+ion-list div{
+    height: 5vh;
+    width: 88vw;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: var(--ion-item-border-color,var(--ion-border-color,var(--ion-color-step-150,#c8c7cc)));
+    margin-top: 10px;
+    margin-left: 25px;
+    padding-right: 25px;
+    
+    ion-icon{
+        font-size: 100px;
+    }
+}
