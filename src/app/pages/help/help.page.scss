@@ -1,5 +1,5 @@
 ion-list div{
-    height: 5vh;
+    height: 10vh;
     width: 88vw;
     border-width: 0px 0px 1px 0px;
     border-style: solid;
@@ -9,6 +9,13 @@ ion-list div{
     padding-right: 25px;
     
     ion-icon{
-        font-size: 100px;
+        font-size: 65px;
     }
+
+    ion-label{
+        padding-top: 3vh;
+        margin-left: 20px;
+        position: absolute;
+    }
+    
 }
