@@ -1,0 +1,23 @@
+.listCaregivers{
+    margin-top: 2vh;
+    ion-item{
+        padding-bottom: 1vh;
+        margin-left:  1vh;
+        margin-right: 2vh;
+        --inner-padding-bottom: 6px;
+    }
+    ion-thumbnail{
+        img{
+        border-radius: 25px;
+        }
+        margin-right: 10px;
+    }
+    ion-label{
+        letter-spacing: 1px;
+        font-size: 16px;
+    }
+
+    .addCG{
+        padding-left: 6px;
+    }
+}

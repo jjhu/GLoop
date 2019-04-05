@@ -1,20 +1,41 @@
 <ion-tabs>
+  <ion-header>
+    <ion-toolbar>
+      <div class="GLoopLogo">
+        <img src="../../assets/logo/GLoop_logo.png" />
+      </div>
+      <ion-buttons slot="end">
+        <ion-button>
+          <ion-icon slot="icon-only" name="menu" class="iconMenu"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
 
   <ion-tab-bar slot="bottom">
-    <ion-tab-button tab="tab1">
-      <ion-icon name="flash"></ion-icon>
-      <ion-label>Tab One</ion-label>
+    <ion-tab-button tab="mainview">
+      <ion-icon src="assets/logo/mainView.svg"></ion-icon>
+      <ion-label>INDICADORES</ion-label>
     </ion-tab-button>
 
-    <ion-tab-button tab="tab2">
-      <ion-icon name="apps"></ion-icon>
-      <ion-label>Tab Two</ion-label>
+    <ion-tab-button tab="profile">
+      <ion-icon src="assets/logo/profile.svg"></ion-icon>
+      <ion-label>PERFIL</ion-label>
     </ion-tab-button>
 
-    <ion-tab-button tab="tab3">
-      <ion-icon name="send"></ion-icon>
-      <ion-label>Tab Thre</ion-label>
+    <ion-tab-button tab="">
+      <ion-icon src="assets/logo/phone.svg"></ion-icon>
+      <ion-label>LLAMAR</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="caregivers">
+      <ion-icon src="assets/logo/doc.svg"></ion-icon>
+      <ion-label>CUIDADORES</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="help">
+      <ion-icon src="assets/logo/help.svg"></ion-icon>
+      <ion-label>AYUDA</ion-label>
     </ion-tab-button>
   </ion-tab-bar>
-
 </ion-tabs>
