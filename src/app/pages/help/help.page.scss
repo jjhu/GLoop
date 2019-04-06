@@ -1,5 +1,6 @@
 ion-list div{
-    height: 10vh;
+    font-family: 'SignikaNegativeLight';
+    height: 9vh;
     width: 88vw;
     border-width: 0px 0px 1px 0px;
     border-style: solid;
@@ -16,6 +17,37 @@ ion-list div{
         padding-top: 3vh;
         margin-left: 20px;
         position: absolute;
+        letter-spacing: 1px;
     }
-    
+
+    ion-label.question-container{
+        padding-top: 3vh;
+        margin-left: 5px;
+        position: absolute;
+        letter-spacing: 1px;
+        font-family: 'SignikaNegativeBold';
+    }
+}
+ion-list .upper-line{
+    padding-top: 5px;
+    border-width: 1px 0px 1px 0px;
+}
+.upper-container{
+    background: var(--ion-background-color-div) !important;
+    border-radius: 30px;
+    width: 85vw;
+    height: 7vh;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 25px;
+    margin-top: 10px;
+    overflow: auto;
+    h1{
+        margin-top: 2vh;
+        padding-left: 8.5vw;
+        background-color: transparent;
+        font-size: 17px;
+    }
 }
