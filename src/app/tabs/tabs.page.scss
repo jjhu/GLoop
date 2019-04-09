@@ -29,8 +29,13 @@ ion-tab-button{
     --padding-bottom: 0px;
     --margin-left:0px;
     --margin-right:0px;
+    --color-selected: var(--ion-color-secondary) !important;
     max-width:100px;
     ion-icon{
         font-size: 67.5px;
     }
+}
+
+ion-tab-bar{
+    height: 10vh;
 }
